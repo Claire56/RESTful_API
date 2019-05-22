@@ -19,17 +19,25 @@
 
 
 ### Fetch the historical prices and dates
-i used the python requests module to get html from the urls, and beautiful soup to extract the required data 
+I used the python requests module to get html from the urls, and beautiful soup to extract the required data. the code can be found in the <a href="https://github.com/claire56/seed.py"> seed.py file </a>
 
 
 ### Database
-I stored the data in a PostgreSql  database, details about the seeding can be found in the <a href="href="https://github.com/claire56/seed.py">seed.py </a>
+I created a database with two tables gold_metals and silver_metalsusing PostgreSql  database, details about the data model can be accessed <a href="https://github.com/claire56/data_model.py"> HERE </a> I seeded the database by getting data from the url details of the seeding can be found <a href="https://github.com/claire56/seed.py"> HERE 
+
+</a> 
+<a href="https://github.com/claire56/seed.py"> seed.py file </a>
 
 #### Database putput screenshot
 <a href="https://github.com/claire56">
     <img alt="screen shot" src="Screen Shot 2019-05-22 at 10.32.54 AM.png" width="900" height="500">
     </a>
 
+### Commodity endpoint
+I used flask to create the endpont, details can be found in the <a href="https://github.com/claire56/server.py"> servery.py file </a> 
+
+
+### Detailed Questions
 Please use Python (ver 3) to complete the test assessment.
 1. Please write a program to fetch the historical prices and dates of gold and silver from these 2 URLs:
 https://www.investing.com/commodities/gold-historical-data
