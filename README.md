@@ -1,4 +1,4 @@
-# Takehome_assignmet
+# Takehome_assignment
 
 <a href="https://github.com/claire56">
     <img alt="screen shot" src="Screen Shot 2019-05-22 at 10.24.02 AM.png" width="900" height="500">
@@ -19,9 +19,9 @@ I used the python requests module to get html from the urls, and beautiful soup 
 
 
 ### Database
-I created a database with two tables gold_metals and silver_metals using PostgreSql  database, details about the data model can be accessed <a href="https://github.com/Claire56/Takehome_assignmet/blob/master/data_model.py"> HERE </a> 
+I created a database with two tables gold_metals and silver_metals using PostgreSql  database, details about the data model can be accessed <a href="https://github.com/Claire56/Takehome_assignmet/blob/master/data_model.py"> data_model.py </a> 
 #### Seeding the database
-I seeded the database by getting data from the url , details of the seeding can be found <a href="https://github.com/Claire56/Takehome_assignmet/blob/master/seed.py"> HERE 
+I seeded the database by getting data from the url , details of the seeding can be found <a href="https://github.com/Claire56/Takehome_assignmet/blob/master/seed.py"> seed.py 
 
 
 #### Database putput screenshot
@@ -41,8 +41,6 @@ Programming: Python 3 <br>
 Framework: Flask <br>
 Database: PostgreSQL <br>
 Libraries and Modules: Beautiful Soup , Unittest , requests,sqlAlchamey ,datetime, pandas, json, decimal
-
-
 
 ### Detailed Questions
 Please use Python (ver 3) to complete the test assessment.
