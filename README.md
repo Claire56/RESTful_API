@@ -6,15 +6,11 @@
 
 
 ## Table of Contents
-* [Overview](#Overview)
 * [Fetch the historical prices and dates](#Fetch-the-historical-prices-and-dates)
 * [Database](#Database)
 * [Commodity endpoint](#Commodity-endpoint)
 * [unittest](#unittest)
 * [Tech Stack](#Tech-Stack)
-* [Setup and installation](#Setup-and-installation)
-* [Demo](#Demo)
-* [Future Features](#Future-Features)
 * [Detailed question](#Detailed-questions)
 
 
@@ -23,7 +19,9 @@ I used the python requests module to get html from the urls, and beautiful soup 
 
 
 ### Database
-I created a database with two tables gold_metals and silver_metalsusing PostgreSql  database, details about the data model can be accessed <a href="https://github.com/Claire56/Takehome_assignmet/blob/master/data_model.py"> HERE </a> I seeded the database by getting data from the url details of the seeding can be found <a href="https://github.com/Claire56/Takehome_assignmet/blob/master/seed.py"> HERE 
+I created a database with two tables gold_metals and silver_metals using PostgreSql  database, details about the data model can be accessed <a href="https://github.com/Claire56/Takehome_assignmet/blob/master/data_model.py"> HERE </a> 
+#### Seeding the database
+I seeded the database by getting data from the url , details of the seeding can be found <a href="https://github.com/Claire56/Takehome_assignmet/blob/master/seed.py"> HERE 
 
 
 #### Database putput screenshot
@@ -33,6 +31,17 @@ I created a database with two tables gold_metals and silver_metalsusing PostgreS
 
 ### Commodity endpoint
 I used flask to create the endpont, details can be found in the <a href="https://github.com/Claire56/Takehome_assignmet/blob/master/server.py"> servery.py file </a> 
+
+### Unittest
+I used Test case  to write the tests, details can be seen in
+<a href="https://github.com/Claire56/Takehome_assignmet/blob/master/tests.py"> tests.py file </a> 
+
+### Teck stack
+Programming: Python 3 <br>
+Framework: Flask <br>
+Database: PostgreSQL <br>
+Libraries and Modules: Beautiful Soup , Unittest , requests,sqlAlchamey ,datetime, pandas, json, decimal
+
 
 
 ### Detailed Questions
