@@ -7,12 +7,28 @@
 
 ## Table of Contents
 * [Overview](#Overview)
+* [Fetch the historical prices and dates](#Fetch-the-historical-prices-and-dates)
+* [Database[(#Database)
+* [Commodity endpoint](#Commodity-endpoint)
+* [unittest](#unittest)
 * [Tech Stack](#Tech-Stack)
 * [Setup and installation](#Setup-and-installation)
 * [Demo](#Demo)
 * [Future Features](#Future-Features)
+* [Detailed question](#Detailed-questions)
 
 
+### Fetch the historical prices and dates
+i used the python requests module to get html from the urls, and beautiful soup to extract the required data 
+
+
+### Database
+I stored the data in a PostgreSql  database, details about the seeding can be found in the <a href="href="https://github.com/claire56/seed.py">seed.py </a>
+
+#### Database putput screenshot
+<a href="https://github.com/claire56">
+    <img alt="screen shot" src="Screen Shot 2019-05-22 at 10.32.54 AM.png" width="900" height="500">
+    </a>
 
 Please use Python (ver 3) to complete the test assessment.
 1. Please write a program to fetch the historical prices and dates of gold and silver from these 2 URLs:
