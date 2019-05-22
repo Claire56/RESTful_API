@@ -8,7 +8,7 @@
 ## Table of Contents
 * [Overview](#Overview)
 * [Fetch the historical prices and dates](#Fetch-the-historical-prices-and-dates)
-* [Database[(#Database)
+* [Database](#Database)
 * [Commodity endpoint](#Commodity-endpoint)
 * [unittest](#unittest)
 * [Tech Stack](#Tech-Stack)
@@ -19,14 +19,12 @@
 
 
 ### Fetch the historical prices and dates
-I used the python requests module to get html from the urls, and beautiful soup to extract the required data. the code can be found in the <a href="https://github.com/claire56/seed.py"> seed.py file </a>
+I used the python requests module to get html from the urls, and beautiful soup to extract the required data. the code can be found in the <a href="https://github.com/Claire56/Takehome_assignmet/blob/master/seed.py"> seed.py file </a>
 
 
 ### Database
-I created a database with two tables gold_metals and silver_metalsusing PostgreSql  database, details about the data model can be accessed <a href="https://github.com/claire56/data_model.py"> HERE </a> I seeded the database by getting data from the url details of the seeding can be found <a href="https://github.com/claire56/seed.py"> HERE 
+I created a database with two tables gold_metals and silver_metalsusing PostgreSql  database, details about the data model can be accessed <a href="https://github.com/Claire56/Takehome_assignmet/blob/master/data_model.py"> HERE </a> I seeded the database by getting data from the url details of the seeding can be found <a href="https://github.com/Claire56/Takehome_assignmet/blob/master/seed.py"> HERE 
 
-</a> 
-<a href="https://github.com/claire56/seed.py"> seed.py file </a>
 
 #### Database putput screenshot
 <a href="https://github.com/claire56">
@@ -34,7 +32,7 @@ I created a database with two tables gold_metals and silver_metalsusing PostgreS
     </a>
 
 ### Commodity endpoint
-I used flask to create the endpont, details can be found in the <a href="https://github.com/claire56/server.py"> servery.py file </a> 
+I used flask to create the endpont, details can be found in the <a href="https://github.com/Claire56/Takehome_assignmet/blob/master/server.py"> servery.py file </a> 
 
 
 ### Detailed Questions
