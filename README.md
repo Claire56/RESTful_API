@@ -1,7 +1,7 @@
 # Test assessment
 
 <a href="https://github.com/claire56">
-    <img alt="screen shot" src="Screen Shot 2019-05-22 at 10.24.02 AM.png" width="900" height="500">
+    <img alt="screen shot" src="pic_Gold_commodity.png" width="900" height="500">
     </a>
 
 
@@ -12,6 +12,7 @@
 * [unittest](#unittest)
 * [Tech Stack](#Tech-Stack)
 * [Detailed question](#Detailed-questions)
+* [Setup and installation](#Setup-and-installation)
 
 
 ### Fetch the historical prices and dates
@@ -26,7 +27,7 @@ I seeded the database by getting data from the url , details of the seeding can 
 
 #### Database output screenshot
 <a href="https://github.com/claire56">
-    <img alt="screen shot" src="Screen Shot 2019-05-22 at 10.32.54 AM.png" width="900" height="500">
+    <img alt="screen shot" src="pic_database1.png" width="900" height="500">
     </a>
 
 ### Commodity endpoint
@@ -46,7 +47,7 @@ Framework: Flask <br>
 Database: PostgreSQL <br>
 Libraries and Modules: Beautiful Soup , Unittest , requests,sqlAlchamey ,datetime, pandas, json, decimal
 
-## Setup and installation
+### Setup and installation
 On local machine, go to desired directory. Clone  repository:
 
 $ git clone https://github.com/Claire56/Takehome_assignmet <br>
