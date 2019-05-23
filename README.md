@@ -46,6 +46,34 @@ Framework: Flask <br>
 Database: PostgreSQL <br>
 Libraries and Modules: Beautiful Soup , Unittest , requests,sqlAlchamey ,datetime, pandas, json, decimal
 
+## Setup and installation
+On local machine, go to desired directory. Clone  repository:
+
+$ git clone https://github.com/Claire56/Takehome_assignmet <br>
+Create a virtual environment in the directory:
+
+$ virtualenv env<br>
+Activate virtual environment:<br>
+
+$ source env/bin/activate<br><br>
+Install dependencies:<br>
+$ pip install -r requirements.txt <br>
+Create database:<br><br>
+
+$ createdb goldsilver<br>
+Build database:<br>
+
+$ python3 -i data_model.py<br>
+>>> db.create_all() <br>
+Seed database:
+
+$ python3 -i seed.py <br>
+Run app:
+
+$ python3 server.py <br>
+Navigate to localhost:8080 in browser.
+
+
 ### Detailed Questions
 Please use Python (ver 3) to complete the test assessment.
 1. Please write a program to fetch the historical prices and dates of gold and silver from these 2 URLs:
