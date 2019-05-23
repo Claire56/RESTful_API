@@ -20,13 +20,16 @@ class FlaskTestsBasic(TestCase):
         """Test the trial route ."""
 
         result = self.client.get("/try")
+        self.assertEqual(result.status_code,200)
         self.assertIn(b"data", result.data)
+
 
     def commodity_page(self):
         """Test the commodity route ."""
     
 
         result = self.client.get("/commodity",query_string={"start_date": '2019-03-1',"end_date":'2019-7-1','commodity_type': 'gold'})
+        self.assertEqual(result.status_code,200)
         self.assertIn(b"data", result.data)
 
 
