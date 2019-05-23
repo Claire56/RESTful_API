@@ -24,13 +24,17 @@ I created a database with two tables gold_metals and silver_metals using Postgre
 I seeded the database by getting data from the url , details of the seeding can be found <a href="https://github.com/Claire56/Takehome_assignmet/blob/master/seed.py"> seed.py 
 
 
-#### Database putput screenshot
+#### Database output screenshot
 <a href="https://github.com/claire56">
     <img alt="screen shot" src="Screen Shot 2019-05-22 at 10.32.54 AM.png" width="900" height="500">
     </a>
 
 ### Commodity endpoint
 I used flask to create the endpont, details can be found in the <a href="https://github.com/Claire56/Takehome_assignmet/blob/master/server.py"> servery.py file </a> 
+#### Silver output screenshot
+<a href="https://github.com/claire56">
+    <img alt="screen shot" src="silver_commodity.png" width="900" height="500">
+    </a>
 
 ### Unittest
 I used Test case  to write the tests, details can be seen in
