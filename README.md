@@ -1,9 +1,7 @@
 # RestFul API 
-In this project i got gold and silver prices and dates from 2 URLs and stored it in a PostgreSql database. I built a program that will start an API web-service on port 8080 (using flask) that will return the stored data
-Create an endpoint that will accept HTTP GET with following arguments, and returning a json time series, mean and variance computed over the specified period
-  * start_date - required (iso format like 2017-05-10)
-  * end_date - required (iso format like 2017-05-22)
-  * commodity_type - required (gold, silver)I will then create an endpoint that crea
+In this project I got gold and silver prices and dates from 2 URLs and stored them in a PostgreSql database. I built a program that will start an API web-service on port 8080 (using flask) that will return the stored data.
+I Created an endpoint that will accept HTTP GET with arguments, and returning a json time series, mean and variance computed over the specified period
+
 
 <a href="https://github.com/claire56">
     <img alt="screen shot" src="pic_Gold_commodity.png" width="900" height="500">
@@ -81,7 +79,6 @@ Navigate to localhost:8080 in browser.
 
 
 ### Detailed Questions
-Please use Python (ver 3) to complete the test assessment.
 1. Please write a program to fetch the historical prices and dates of gold and silver from these 2 URLs:
 https://www.investing.com/commodities/gold-historical-data
 https://www.investing.com/commodities/silver-historical-data
