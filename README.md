@@ -1,4 +1,9 @@
-# Test assessment
+# RestFul API 
+In this project i got gold and silver prices and dates from 2 URLs and stored it in a PostgreSql database. I built a program that will start an API web-service on port 8080 (using flask) that will return the stored data
+Create an endpoint that will accept HTTP GET with following arguments, and returning a json time series, mean and variance computed over the specified period
+  * start_date - required (iso format like 2017-05-10)
+  * end_date - required (iso format like 2017-05-22)
+  * commodity_type - required (gold, silver)I will then create an endpoint that crea
 
 <a href="https://github.com/claire56">
     <img alt="screen shot" src="pic_Gold_commodity.png" width="900" height="500">
