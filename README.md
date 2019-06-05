@@ -19,13 +19,13 @@ I Created an endpoint that will accept HTTP GET with arguments, and returning a 
 
 
 ### Fetch the historical prices and dates
-I used the python requests module to get html from the urls, and beautiful soup to extract the required data. the code can be found in the <a href="https://github.com/Claire56/Takehome_assignmet/blob/master/seed.py"> seed.py file </a>
+I used the python requests module to get html from the urls, and beautiful soup to extract the required data. the code can be found in the <a href="https://github.com/Claire56/RESTful_API/blob/master/seed.py"> seed.py file </a>
 
 
 ### Database
-I created a database with two tables gold_metals and silver_metals using PostgreSql  database, details about the data model can be accessed <a href="https://github.com/Claire56/Takehome_assignmet/blob/master/data_model.py"> data_model.py </a> 
+I created a database with two tables gold_metals and silver_metals using PostgreSql  database, details about the data model can be accessed <a href="https://github.com/Claire56/TRESTful_API/blob/master/data_model.py"> data_model.py </a> 
 #### Seeding the database
-I seeded the database by getting data from the url , details of the seeding can be found <a href="https://github.com/Claire56/Takehome_assignmet/blob/master/seed.py"> seed.py 
+I seeded the database by getting data from the url , details of the seeding can be found <a href="https://github.com/Claire56/RESTful_API/blob/master/seed.py"> seed.py 
 
 
 #### Database output screenshot
@@ -34,7 +34,7 @@ I seeded the database by getting data from the url , details of the seeding can 
     </a>
 
 ### Commodity endpoint
-I used flask to create the endpont, details can be found in the <a href="https://github.com/Claire56/Takehome_assignmet/blob/master/server.py"> servery.py file </a> 
+I used flask to create the endpont, details can be found in the <a href="https://github.com/Claire56/RESTful_API/blob/master/server.py"> servery.py file </a> 
 #### Silver output screenshot
 <a href="https://github.com/claire56">
     <img alt="screen shot" src="silver_commodity.png" width="900" height="500">
@@ -42,7 +42,7 @@ I used flask to create the endpont, details can be found in the <a href="https:/
 
 ### Unittest
 I used Test case  to write the tests, details can be seen in
-<a href="https://github.com/Claire56/Takehome_assignmet/blob/master/tests.py"> tests.py file </a> 
+<a href="https://github.com/Claire56/RESTful_API/blob/master/tests.py"> tests.py file </a> 
 
 ### Teck stack
 Programming: Python 3 <br>
@@ -53,7 +53,7 @@ Libraries and Modules: Beautiful Soup , Unittest , requests,sqlAlchamey ,datetim
 ### Setup and installation
 On local machine, go to desired directory. Clone  repository:
 
-$ git clone https://github.com/Claire56/Takehome_assignmet <br>
+$ git clone https://github.com/Claire56/RESTful_API <br>
 Create a virtual environment in the directory:
 
 $ virtualenv env<br>
