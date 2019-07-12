@@ -46,7 +46,7 @@ def get_time_series():
         # changed below code to cater for sql injections
 
 	
-	my_query = "SELECT date,price FROM %table_name WHERE date between %start_date  and %end_date ;"
+	my_query = "SELECT date,price FROM %s WHERE date between %s  and %s ;"
 	results = connection.execute(my_query,(table_name,start_date,end_date)).fetchall()
 	r = [dict(row) for row in results]
 	dates = [str(ri['date']) for ri in r]
