@@ -40,8 +40,14 @@ def get_time_series():
 		table_name ='silver_metals'
 
 	# query the database and calculate mean and variance
-	my_query = "SELECT date,price FROM "+table_name+" WHERE date between '"+start_date+"'  and '"+end_date+"' ;"
-	results = connection.execute(my_query).fetchall()
+	# my_query = "SELECT date,price FROM "+table_name+" WHERE date between '"+start_date+"'  and '"+end_date+"' ;"
+	# results = connection.execute(my_query).fetchall()
+	
+        # changed below code to cater for sql injections
+
+	
+	my_query = "SELECT date,price FROM %table_name WHERE date between %start_date  and %end_date ;"
+	results = connection.execute(my_query,(table_name,start_date,end_date)).fetchall()
 	r = [dict(row) for row in results]
 	dates = [str(ri['date']) for ri in r]
 	prices = [float(ri['price'])for ri in r]
