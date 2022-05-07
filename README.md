@@ -1,6 +1,6 @@
 # RESTful API 
 In this project I got gold and silver prices and dates from 2 URLs and stored them in a PostgreSql database. I built a program that will start an API web-service on port 8080 (using flask) that will return the stored data.
-I Created an endpoint that will accept HTTP GET with arguments, and returning a json time series, mean and variance computed over the specified period
+I Created an endpoint that will accept HTTP GET with arguments, and returning a json time series, mean and variance computed over the specified period.
 
 
 <a href="https://github.com/claire56">
