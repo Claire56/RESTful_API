@@ -83,7 +83,7 @@ Navigate to localhost:8080 in browser.
 https://www.investing.com/commodities/gold-historical-data
 https://www.investing.com/commodities/silver-historical-data
  
-and store them locally (in a csv file, or other file or database, as you see fit). 
+and store them locally (in a csv file, or other file or database, as you see fit) 
 Please extract the Date and Price fields only from the current static page.
 
 2. Please write a second program that will start an API web-service on port 8080 (use flask) that will return the stored data
