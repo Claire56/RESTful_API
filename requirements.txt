@@ -91,7 +91,7 @@ terminado==0.8.1
 testpath==0.4.2
 tornado==5.1.1
 traitlets==4.3.2
-Twisted==17.9.0
+Twisted==22.4.0
 ufw==0.35
 urllib3==1.25.2
 virtualenv==15.1.0
